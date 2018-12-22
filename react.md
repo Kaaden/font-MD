@@ -1,1 +1,1 @@
-#React 仅仅是 VIEW 层 >
+# React 仅仅是 VIEW 层
