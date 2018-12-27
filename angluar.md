@@ -1,6 +1,6 @@
 # Angluar
 
-##特性
+## 特性
    
     AngularJS是一个功能强大的基于JavaScript开发框架用于创建富互联网应用(RIA)。
 
@@ -8,7 +8,7 @@
 
     AngularJS写的应用都是跨浏览器兼容。AngularJS使用JavaScript代码自动处理适应每种浏览器。
 
-##核心特征
+## 核心特征
    
     据绑定: 模型和视图组件之间的数据自动同步。
 
@@ -33,7 +33,7 @@
 	依赖注入: AngularJS有一个内置的依赖注入子系统，开发人员通过使应用程序从而更易于开发，理解和测试。
 
 
-##优点
+## 优点
 
 	AngularJS提供一个非常干净和维护的方式来创造单页的应用。
 
@@ -50,13 +50,13 @@
 	在AngularJS中，视图都是纯HTML页面，并用JavaScript编写控制器做业务处理。 
 	AngularJS应用程序可以在所有主要的浏览器和智能手机，包括Android和iOS系统的手机/平板电脑上运行。
 
-##缺点
+## 缺点
 
 	不安全：因为只是JavaScript一种框架，由AngularJS编写的应用程序是不安全的。服务器端身份验证和授权是必须用来保证应用程序的安全。
 
 	不可降解：如果应用程序的用户禁用JavaScript，那最后用户看到的只是基本页面，仅此而已
 
-##AngularJS三个主要部分
+## AngularJS三个主要部分
 
 	ng-app : 指令定义和链接AngularJS应用程序到HTML。
 
@@ -66,9 +66,9 @@
 
 
 
-##Angular-cli 目录结构
+## Angular-cli 目录结构
 
- ###首层目录：
+ ### 首层目录：
 
 	node_modules        第三方依赖包存放目录
 	e2e                 端到端的测试目录  用来做自动测试的
@@ -80,7 +80,7 @@
 	README.md           说明文件
 	tslint.json         是tslint的配置文件，用来定义TypeScript代码质量检查的规则，不用管它
 
- ###src目录：
+ ### src目录：
 
 	app目录            包含应用的组件和模块，我们要写的代码都在这个目录
 	assets目录         资源目录，存储静态资源的  比如图片
