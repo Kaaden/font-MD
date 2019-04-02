@@ -2,11 +2,11 @@
 
 ## 特性
    
-    AngularJS是一个功能强大的基于JavaScript开发框架用于创建富互联网应用(RIA)。
+    Angluar是一个功能强大的基于JavaScript开发框架用于创建富互联网应用(RIA)。
 
-    AngulajJS为开发者提供的选项(使用JavaScript)在一个干净的MVC(模型 - 视图 - 控制器)的方式来编写客户端应用程序。
+    Angluar为开发者提供的选项(使用JavaScript)在一个干净的MVC(模型 - 视图 - 控制器)的方式来编写客户端应用程序。
 
-    AngularJS写的应用都是跨浏览器兼容。AngularJS使用JavaScript代码自动处理适应每种浏览器。
+    Angluar写的应用都是跨浏览器兼容。Angluar使用JavaScript代码自动处理适应每种浏览器。
 
 ## 核心特征
    
@@ -16,53 +16,53 @@
 
 	控制器: 这些Javascript函数绑定到特定的范围。
 
-	服务: AngularJS配有多个内置服务，例如 $http 可作为一个XMLHttpRequest请求。这些单一对象在应用程序只实例化一次。
+	服务: Angluar配有多个内置服务，例如 $http 可作为一个XMLHttpRequest请求。这些单一对象在应用程序只实例化一次。
 
 	过滤器: 从一个数组的条目中选择一个子集，并返回一个新的数组。
 
-	指令: 指令是关于DOM元素标记(如元素，属性，CSS等等)。这些可以被用来创建作为新的，自定义部件的自定义HTML标签。AngularJS设有内置指令(如：ngBind，ngModel…)
+	指令: 指令是关于DOM元素标记(如元素，属性，CSS等等)。这些可以被用来创建作为新的，自定义部件的自定义HTML标签。Angluar设有内置指令(如：ngBind，ngModel…)
 
 	模板:这些符合从控制器和模型信息的呈现的视图。这些可以是单个文件(如index.html)，或使用“谐音”在一个页面多个视图。
 
 	路由: 它是切换视图的概念。
 
-	模型视图: MVC是一个设计模式将应用划分为不同的部分(称为模型，视图和控制器)，每个都有不同的职责。 AngularJS并没有传统意义上的实现MVC，而是更接近于MVVM(模型 - 视图 - 视图模型)。 AngularJS团队将它作为模型视图。
+	模型视图: MVC是一个设计模式将应用划分为不同的部分(称为模型，视图和控制器)，每个都有不同的职责。 Angluar并没有传统意义上的实现MVC，而是更接近于MVVM(模型 - 视图 - 视图模型)。 Angluar团队将它作为模型视图。
 
 	深层链接: 深层链接，可以使应用程序状态进行编码在URL中而能够添加到书签。应用程序可从URL恢复到相同的状态。
 
-	依赖注入: AngularJS有一个内置的依赖注入子系统，开发人员通过使应用程序从而更易于开发，理解和测试。
+	依赖注入: Angluar有一个内置的依赖注入子系统，开发人员通过使应用程序从而更易于开发，理解和测试。
 
 
 ## 优点
 
-	AngularJS提供一个非常干净和维护的方式来创造单页的应用。
+	Angluar提供一个非常干净和维护的方式来创造单页的应用。
 
-	AngularJS提供数据绑定功能在HTML中，从而给用户提供丰富和响应的体验
+	Angluar提供数据绑定功能在HTML中，从而给用户提供丰富和响应的体验
 
-	AngularJS代码可进行单元测试。
+	Angluar代码可进行单元测试。
 
-	AngularJS使用依赖注入和利用关注点分离。
+	Angluar使用依赖注入和利用关注点分离。
 
-	AngularJS提供了可重用的组件。
+	Angluar提供了可重用的组件。
 
-	使用AngularJS，开发人员编写更少的代码，并获得更多的功能。
+	使用Angluar，开发人员编写更少的代码，并获得更多的功能。
 
-	在AngularJS中，视图都是纯HTML页面，并用JavaScript编写控制器做业务处理。 
-	AngularJS应用程序可以在所有主要的浏览器和智能手机，包括Android和iOS系统的手机/平板电脑上运行。
+	在Angluar中，视图都是纯HTML页面，并用JavaScript编写控制器做业务处理。 
+	Angluar应用程序可以在所有主要的浏览器和智能手机，包括Android和iOS系统的手机/平板电脑上运行。
 
 ## 缺点
 
-	不安全：因为只是JavaScript一种框架，由AngularJS编写的应用程序是不安全的。服务器端身份验证和授权是必须用来保证应用程序的安全。
+	不安全：因为只是JavaScript一种框架，由Angluar编写的应用程序是不安全的。服务器端身份验证和授权是必须用来保证应用程序的安全。
 
 	不可降解：如果应用程序的用户禁用JavaScript，那最后用户看到的只是基本页面，仅此而已
 
-## AngularJS三个主要部分
+## Angluar三个主要部分
 
-	ng-app : 指令定义和链接AngularJS应用程序到HTML。
+	ng-app : 指令定义和链接Angluar应用程序到HTML。
 
-	ng-model : 指令绑定AngularJS应用数据的值到HTML输入控件。
+	ng-model : 指令绑定Angluar应用数据的值到HTML输入控件。
 
-	ng-bind : 该指令绑定AngularJS应用程序数据到HTML标签。
+	ng-bind : 该指令绑定Angluar应用程序数据到HTML标签。
 
 
 
@@ -102,4 +102,12 @@
      启动 ng serve --open
 	 安装less ng new test --style=less
 	 安装scss ng new test2 --style=scss
+	 
+## Angular 各方法
+     *ngFor 循环
+	 （click）="doFun()" 事件
+	 *ngif 判断
+	 [(ngModel)] 双向绑定 使用前提必须导入模块（在model.ts导入import { FormsModule } from '@angular/forms' ，FormsModule 添加到 @NgModule 元数据的 imports 数组中）
+	 
+	 
 	 
