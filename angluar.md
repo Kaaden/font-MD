@@ -100,3 +100,6 @@
      全局安装 npm install -g @angular/cli
      创建项目 ng new my-app
      启动 ng serve --open
+	 安装less ng new test --style=less
+	 安装scss ng new test2 --style=scss
+	 
