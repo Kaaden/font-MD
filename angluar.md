@@ -98,10 +98,18 @@
 ## Angular-cli 安装指令
 
      全局安装 npm install -g @angular/cli
+	 
      创建项目 ng new my-app
+	 
      启动 ng serve --open
+	 
 	 安装less ng new test --style=less
+	 
 	 安装scss ng new test2 --style=scss
+	 
+	 添加路由 ng generate module app-routing --flat --module=app
+	 
+	 创建组件 ng generate component heroes
 	 
 ## Angular 各方法
      *ngFor 循环
