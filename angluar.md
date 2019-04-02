@@ -109,5 +109,9 @@
 	 *ngif 判断
 	 [(ngModel)] 双向绑定 使用前提必须导入模块（在model.ts导入import { FormsModule } from '@angular/forms' ，FormsModule 添加到 @NgModule 元数据的 imports 数组中）
 	 
+## Angular 错误日志
+   1.Port 4200 is already in use. Use '--port' to specify a different port   --提示说明4200端口被占用 换个端口即可   ng serve --port 8082
+
+
 	 
 	 
