@@ -114,6 +114,7 @@
 
 	 
 ## Angular 各方法
+
      *ngFor 循环
 	 （click）="doFun()" 事件
 	 
@@ -124,6 +125,7 @@
 	 [style.background-image]="'url(' + BgImg+ ')'"动态设置style image
 	 
 	 [ngClass]="{true:'nav-sel'}[isDon]"  动态设置class
+	 
 	 
 ## Angular 错误日志
    1.Port 4200 is already in use. Use '--port' to specify a different port   --提示说明4200端口被占用 换个端口即可   ng serve --port 8082
