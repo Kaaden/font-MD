@@ -43,6 +43,10 @@
 		async findAll(): Promise<any[]> {
 		  return [];
 		}
+		
+#提供者
+  
+  几乎所有的东西都可以被认为是提供者 - service, repository, factory, helper 等等。他们都可以通过 constructor 注入依赖关系，也就是说，他们可以创建各种关系。但事实上，提供者不过是一个用@Injectable() 装饰器注解的类。
  
 #模块
 
