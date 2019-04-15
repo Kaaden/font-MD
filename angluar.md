@@ -118,7 +118,7 @@
      *ngFor 循环
 	 （click）="doFun()" 事件
 	 
-	 *ngif 判断
+	 *ngIf 判断
 	 
 	 [(ngModel)] 双向绑定 使用前提必须导入模块（在model.ts导入import { FormsModule } from '@angular/forms' ，FormsModule 添加到 @NgModule 元数据的 imports 数组中）
 	 
