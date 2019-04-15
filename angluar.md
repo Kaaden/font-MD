@@ -126,9 +126,15 @@
 	 
 	 [ngClass]="{true:'nav-sel'}[isDon]"  动态设置class
 	 
-	 
+	 [innerHTML]="content"  显示富文本
 ## Angular 错误日志
    1.Port 4200 is already in use. Use '--port' to specify a different port   --提示说明4200端口被占用 换个端口即可   ng serve --port 8082
+
+
+
+
+
+
 
 
 	 
