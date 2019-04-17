@@ -1,4 +1,4 @@
-### eggjs mysql 操作
+# eggjs mysql 操作
 
  ## 1.获取当前时间
  
@@ -15,7 +15,7 @@
  ## 4.插入  
  
    await this.app.mysql.insert('posts', { title: 'Hello World' });
-   # // 判断插入成功
+   ### // 判断插入成功
    const insertSuccess = result.affectedRows === 1;
  
  ## 5.条件查询和结果定制 
@@ -38,7 +38,7 @@
 	};
 	const result = await this.app.mysql.update('posts', row); // 更新 posts 表中的记录
 	
-	# // 判断更新成功
+	### // 判断更新成功
 	const updateSuccess = result.affectedRows === 1;
 
 
