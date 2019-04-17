@@ -20,13 +20,13 @@
  
  ## 5.条件查询和结果定制 
  
-  await this.app.mysql.select('posts', { // 搜索 post 表
-  where: { status: 'draft', author: ['author1', 'author2'] }, // WHERE 条件
-  columns: ['author', 'title'], // 要查询的表字段
-  orders: [['created_at','desc'], ['id','desc']], // 排序方式
-  limit: 10, // 返回数据量
-  offset: 0, // 数据偏移量
- });
+	 await this.app.mysql.select('posts', { // 搜索 post 表
+	  where: { status: 'draft', author: ['author1', 'author2'] }, // WHERE 条件
+	  columns: ['author', 'title'], // 要查询的表字段
+	  orders: [['created_at','desc'], ['id','desc']], // 排序方式
+	  limit: 10, // 返回数据量
+	  offset: 0, // 数据偏移量
+	 });
  
  ## 6.更新 
  
