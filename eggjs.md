@@ -2,21 +2,21 @@
 
  ## 1.获取当前时间
  
-   this.app.mysql.literals.now
+     this.app.mysql.literals.now
  
  ## 2.查询一条记录时 
  
-   await this.app.mysql.get('posts', { id: 12 });
+     await this.app.mysql.get('posts', { id: 12 });
  
  ## 3.查询全表
  
-   await this.app.mysql.select('posts')
+     await this.app.mysql.select('posts')
  
  ## 4.插入  
  
-   await this.app.mysql.insert('posts', { title: 'Hello World' });
-   ### // 判断插入成功
-   const insertSuccess = result.affectedRows === 1;
+     await this.app.mysql.insert('posts', { title: 'Hello World' });
+     ### // 判断插入成功
+     const insertSuccess = result.affectedRows === 1;
  
  ## 5.条件查询和结果定制 
  
