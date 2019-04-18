@@ -30,24 +30,31 @@
  
  ## 6.更新 
  
-	 const row = {
-	  id: 123,
-	  name: 'fengmk2',
-	  otherField: 'other field value',    // any other fields u want to update
-	  modifiedAt: this.app.mysql.literals.now, // `now()` on db server
-	};
-	const result = await this.app.mysql.update('posts', row); // 更新 posts 表中的记录
-	
-	### // 判断更新成功
-	const updateSuccess = result.affectedRows === 1;
+		 const row = {
+		  id: 123,
+		  name: 'fengmk2',
+		  otherField: 'other field value',    // any other fields u want to update
+		  modifiedAt: this.app.mysql.literals.now, // `now()` on db server
+		};
+		const result = await this.app.mysql.update('posts', row); // 更新 posts 表中的记录
+		
+		### // 判断更新成功
+		const updateSuccess = result.affectedRows === 1;
 
 
  ## 7.删除
  
-	const result = await this.app.mysql.delete('posts', {
-	  author: 'fengmk2',
-	});
+		const result = await this.app.mysql.delete('posts', {
+		  author: 'fengmk2',
+		});
 
-	=> DELETE FROM `posts` WHERE `author` = 'fengmk2';
+		=> DELETE FROM `posts` WHERE `author` = 'fengmk2';
  
+ ## 8.解决Unicode emoji存储数据乱码问题
+ 
+      1.首先在mysql 字符集设置utf8mb4
+	  
+	  2.在eggjs配置mysql出添加上  charset: "utf8mb4"
+	  
+	  3.虽然在mysql上看数据还是一个"?",但api请求已经正确返回
  
