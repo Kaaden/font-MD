@@ -115,7 +115,10 @@
 	 
 ## Angular 各方法
 
-     *ngFor 循环
+     *ngFor 循环 
+	 
+	 *ngFor="let item of listWorkingDetails; let i = index" 循环带索引
+	 
 	 （click）="doFun()" 事件
 	 
 	 *ngIf 判断
@@ -128,7 +131,7 @@
 	 
 	 [innerHTML]="content"  显示富文本
 ## Angular 错误日志
-   1.Port 4200 is already in use. Use '--port' to specify a different port   --提示说明4200端口被占用 换个端口即可   ng serve --port 8082
+      1.Port 4200 is already in use. Use '--port' to specify a different port   --提示说明4200端口被占用 换个端口即可   ng serve --port 8082
 
 
 
