@@ -1,10 +1,17 @@
 # React 仅仅是 VIEW 层
 
 ## React  指令
-    
+    ### dva
+	
 	npm install dva-cli -g
 	
 	dva new project
+	
+	### umi 
+	
+	yarn global add umi
+	
+	yarn create umi
 
 ## JSX优点 
   
