@@ -1,52 +1,58 @@
 # React 仅仅是 VIEW 层
 
+## React 指令
+    
+	npm i dva-cli@next-g
+	
+	dva new project
+
 ## JSX优点 
   
-   <ul>
-	  <li>实际上JSX是js（es6）的语法糖</li>
-	  <li>使用jsx前需要在文件中导入 React:</li>
-	  <li>可复用，html模块化，可以复制给js变量，自然可以复用</li>
-	  <li>防止xss攻击</li>
-	  <li>React DOM在渲染前会把内容转换为字符串，所以可以防止xss攻击</li>
-	  <li>标签语义化</li>
-  </ul>
+	   <ul>
+		  <li>实际上JSX是js（es6）的语法糖</li>
+		  <li>使用jsx前需要在文件中导入 React:</li>
+		  <li>可复用，html模块化，可以复制给js变量，自然可以复用</li>
+		  <li>防止xss攻击</li>
+		  <li>React DOM在渲染前会把内容转换为字符串，所以可以防止xss攻击</li>
+		  <li>标签语义化</li>
+	  </ul>
   
-##JSX注意事项
-    <ul>
-	  <li>使用 () 包裹html标签上面的例子，div外层用括号包裹，主要为了解决自动加分号可能引入的bug</li>
-	  <li>jsx内写注释类似html的注释，但是需要放在{}里面</li>
-  </ul>
+## JSX注意事项
+		 <ul>
+		  <li>使用 () 包裹html标签上面的例子，div外层用括号包裹，主要为了解决自动加分号可能引入的bug</li>
+		  <li>jsx内写注释类似html的注释，但是需要放在{}里面</li>
+		 </ul>
   
- ##jsx属性的规定 
-    <ul>
-	  <li>属性名：必需是驼峰式写法；</li>
-	  <li>属性值：值可以是字符串或表达式{}值缺省时为true</li>
-  </ul>
+ ## jsx属性的规定 
+		<ul>
+		  <li>属性名：必需是驼峰式写法；</li>
+		  <li>属性值：值可以是字符串或表达式{}值缺省时为true</li>
+		</ul>
 
- ##jsx属性分类
-    ###分成三类：html属性、jsx属性、自定义属性。
-    <ul>
-	  <li>html的class在jsx里改为className</li>
-	  <li>style属性值必须是个对象</li>
-	  <li>jsx为了方便，添加了一些额外的属性，这些属性在后面的组件中用到，暂时只做了解，比如：ref 、key 、 children</li>
-  </ul>
+ ## jsx属性分类
+    ### 分成三类：html属性、jsx属性、自定义属性。
+		<ul>
+		  <li>html的class在jsx里改为className</li>
+		  <li>style属性值必须是个对象</li>
+		  <li>jsx为了方便，添加了一些额外的属性，这些属性在后面的组件中用到，暂时只做了解，比如：ref 、key 、 children</li>
+	  </ul>
 
 
- ##设置属性的三种方式
+ ## 设置属性的三种方式
    
-    <ul>
-	  <li>键值对形式</li>
-	  <li>如前面所用到的都是这种方式</li>
-	  <li>展开符形式(...)</li>
-	  <li>用于一次性添加所有属性，展开符(...)用于展开所有属性</li>
-	  <li>let myProps={
-	　className:'class1 class2',
-	　id:'cc'
-	}
-	const div=<div {...myProps}></div>
-	//结果相当于
-	const div=<div className='class1 class2' id='cc'></div></li>
-  </ul>
+		<ul>
+		  <li>键值对形式</li>
+		  <li>如前面所用到的都是这种方式</li>
+		  <li>展开符形式(...)</li>
+		  <li>用于一次性添加所有属性，展开符(...)用于展开所有属性</li>
+		  <li>let myProps={
+		　className:'class1 class2',
+		　id:'cc'
+		}
+		const div=<div {...myProps}></div>
+		//结果相当于
+		const div=<div className='class1 class2' id='cc'></div></li>
+	  </ul>
   
   
   
