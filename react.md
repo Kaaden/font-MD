@@ -1,8 +1,8 @@
 # React 仅仅是 VIEW 层
 
-## React 指令
+## React  指令
     
-	npm i dva-cli@next-g
+	npm install dva-cli -g
 	
 	dva new project
 
