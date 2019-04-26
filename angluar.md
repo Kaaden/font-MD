@@ -111,7 +111,7 @@
 	 
 	 创建组件 ng generate component heroes
 	 
-
+	 打包发布 ng build --prod --aot --base-href ./
 	 
 ## Angular 各方法
 
@@ -127,7 +127,7 @@
 	 
 	 [style.background-image]="'url(' + BgImg+ ')'"动态设置style image
 	 
-	 [ngClass]="{true:'nav-sel'}[isDon]"  动态设置class
+	 [ngClass]="{true:'nav-sel'}[isDon]" || [ngClass]="{'nav-sel':isDon}"  动态设置class
 	 
 	 [innerHTML]="content"  显示富文本
 ## Angular 错误日志
