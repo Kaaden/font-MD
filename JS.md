@@ -96,7 +96,11 @@
 	  
 	  
 	  
+  ### js监听事件以及移除事件
+
+      window.addEventListener("scroll", this.onScroll)  
 	  
+	  window.removeEventListener("scroll", this.onScroll)
 	  
 	  
 	  
