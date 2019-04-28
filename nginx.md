@@ -13,9 +13,7 @@
 			错误日志的存放路径
 			配置文件的引入
 		
-	
-	
-	## events块
+  ## events块
 	
 	  ### 该部分配置主要影响Nginx服务器与用户的网络连接，主要包括：
 	  
@@ -25,7 +23,7 @@
 			最大连接数的配置
 			
 	
-    ##  http块
+  ##  http块
 	   
 	    定义MIMI-Type
 		自定义服务日志
@@ -33,22 +31,22 @@
 		连接超时时间
 		单连接请求数上限
 		
-	## server块
+  ## server块
 	
 		配置网络监听
 		基于名称的虚拟主机配置
 		基于IP的虚拟主机配置
 		
-	## location块
+  ## location块
 	
 	    location配置
 		请求根目录配置
 		更改location的URI
 		网站默认首页配置
 		
-    ![image](https://github.com/Kaaden/font-MD/blob/master/2.jpg)
+  ![image](https://github.com/Kaaden/font-MD/blob/master/2.jpg)
 	
-   ## window 下 cmd 命令
+  ## window 下 cmd 命令
    
       运行:start nginx
 	  
