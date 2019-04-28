@@ -52,5 +52,7 @@
 	  
 	  重载:nginx -s reload
 	  
+	  关闭: nginx -s stop(快速停止nginx)  或  nginx -s quit(完整有序的停止nginx)
+	  
 	  
 	
