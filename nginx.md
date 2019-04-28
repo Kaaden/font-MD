@@ -1,6 +1,6 @@
 # Nginx服务器配置
 
-  ![image](https://github.com/Kaaden/font-MD/1.jpg)
+  ![image](https://github.com/Kaaden/font-MD/blob/master/1.jpg)
   
   ## 全局块
      
