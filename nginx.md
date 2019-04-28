@@ -1,6 +1,6 @@
 # Nginx服务器配置
 
-  ![image](http://t11.baidu.com/it/u=4051409674,36802062&fm=173&app=25&f=JPEG?w=640&h=785&s=F1D75D9AE39745CA58CDB2570300B0FD)
+  ![image](https://github.com/Kaaden/font-MD/1.jpg)
   
   ## 全局块
      
