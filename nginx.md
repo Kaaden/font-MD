@@ -44,6 +44,19 @@
 		更改location的URI
 		网站默认首页配置
 		
+  ## 配置多个location
+  
+        1.一个特定的url使用一个别名，这里要用别名，不要用root，alias指定的目录是准确的，root是指定目录的上级目录
+		
+		 location /texasholdem/bug/ {
+
+           alias /data1/www/texasholdem/bug/;
+
+           index  index.php index.html index.htm ;
+
+         }
+		
+		
   ![image](https://github.com/Kaaden/font-MD/blob/master/2.jpg)
 	
   ## window 下 cmd 命令
