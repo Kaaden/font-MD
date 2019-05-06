@@ -9,3 +9,6 @@
    ### undefined类型
 
       1.undefined只有一个值，声明了变量为声明值时，默认undefined
+
+      2.var message;
+        typeof (message) ===> 'undefined' 表示该值未定义
