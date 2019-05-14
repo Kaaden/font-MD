@@ -22,3 +22,19 @@
 	git config --global --replace-all user.name "输入你的用户名"
 	
 	git config --list 
+	
+	
+## ssh测试链接是否成功
+
+   ssh git@github.com
+   
+   1.查看本机ssh key
+   
+      cd ~/.ssh 若无则需生成key
+	  
+	  
+	  ls
+	  
+	  cat id_rsa.pub
+	  
+	
