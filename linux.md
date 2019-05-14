@@ -19,5 +19,15 @@
      3.删除指定文件 rm -f name
 
      4.查找文件 find -name "name"
+	 
+  ## pm2 指令
+  
+     启动:npm start name
+	 
+	 列表:pm2 list 
+	 
+	 暂停某个服务: pm2 stop name
+	 
+	 暂停全部:pm2 stop all-downloads/
 
   
