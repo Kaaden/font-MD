@@ -15,3 +15,5 @@
      2.切换路径 cd path
 
      3.删除指定文件 rm -f name
+
+     4.查找文件 find -name "name"
