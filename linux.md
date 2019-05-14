@@ -12,6 +12,6 @@
 
      1.创建文件夹 mkdir name
 
-     2.
+     2.切换路径 cd path
 
      
