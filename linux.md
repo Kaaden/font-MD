@@ -1,8 +1,10 @@
 # Linux
 
-  ## Xshell 下载
+  ## 下载
 
-     https://www.netsarang.com/zh/all-downloads/?code=622
+    Xshell: https://www.netsarang.com/zh/all-downloads/?code=622
+
+    winscp: https://dl.pconline.com.cn/html_2/1/86/id=7244&pn=0&linkPage=1.html
 
   ## 上传文件
 
@@ -17,3 +19,5 @@
      3.删除指定文件 rm -f name
 
      4.查找文件 find -name "name"
+
+  
