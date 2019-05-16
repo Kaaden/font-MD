@@ -18,7 +18,7 @@
         12.path inerllisense
         13.shell-format
         14.veteur
-        
+
  ## FlashFtp
       https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/FlashFXP.rar
 
@@ -51,3 +51,27 @@
 
  ## Git
      https://git-scm.com/downloads
+
+
+ ## node相关
+     下载 https://nodejs.org/zh-cn/
+
+     安装 yarn:https://yarnpkg.com/lang/zh-hans/docs/install/#windows-stable
+
+     镜像 
+
+       npm get registry 得到原本的镜像地址
+
+     设成淘宝的镜像
+
+       npm config set registry http://registry.npm.taobao.org/
+
+       yarn config set registry http://registry.npm.taobao.org/
+
+     安装cnpm: npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+     换成原来的
+       
+       npm config set registry https://registry.npmjs.org/
+
+   
