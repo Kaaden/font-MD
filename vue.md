@@ -12,4 +12,10 @@
 
     2.点击:@click
 
-    3.
+    3.触摸开始:@touchstart
+
+    4.触摸结束:@touchend @touchcancel
+
+    5.触摸移动:@touchmove
+
+    6.防止冒泡事件:@click.stop.prevent
