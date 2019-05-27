@@ -24,10 +24,15 @@
 	git config --list 
 	
 	
+## 生成ssh key
+
+   ssh-keygen -t rsa -C "your_email@example.com"(剩下一路enter)
+   
+
 ## ssh测试链接是否成功
 
-   ssh git@github.com
-   
+   ssh git@github.com || git@gitee.com(码云)
+       
    1.查看本机ssh key
    
       cd ~/.ssh 若无则需生成key
@@ -35,6 +40,6 @@
 	  
 	  ls
 	  
-	  cat id_rsa.pub
+	  cat id_rsa.pub（查看本地key）
 	  
 	
