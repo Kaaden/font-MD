@@ -55,7 +55,9 @@
  ## notepad++
      https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/npp.7.7.Installer.exe
 
- 
+ ## 微信开发者工具
+     https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html
+     
  ## node相关
      下载 https://nodejs.org/zh-cn/
 
