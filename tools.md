@@ -60,6 +60,9 @@
 	 
  ## IDM
      https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/idman631build3%E5%AE%89%E8%A3%85%E7%89%88.exe
+	 
+ ## UTOOLS
+     https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/uTools-0.3.1-beta.exe
      
  ## node相关
      下载 https://nodejs.org/zh-cn/
