@@ -23,10 +23,11 @@
                 }
             }
 			
-  ## 
+  ## android 打包
   
+	  expo build:android
   
-  ## 
+  ## ios 打包
+     
+	  expo build:ios
   
-  
-  ##
