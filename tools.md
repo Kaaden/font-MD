@@ -57,6 +57,9 @@
 
  ## 微信开发者工具
      https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html
+	 
+ ## IDM
+     https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/idman631build3%E5%AE%89%E8%A3%85%E7%89%88.exe
      
  ## node相关
      下载 https://nodejs.org/zh-cn/
