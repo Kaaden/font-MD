@@ -63,6 +63,9 @@
 	 
  ## UTOOLS
      https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/uTools-0.3.1-beta.exe
+ 
+ ## ShadowsocksR (ssr)
+     https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/ShadowsocksR-win-4.9.2.zip
      
  ## node相关
      下载 https://nodejs.org/zh-cn/
