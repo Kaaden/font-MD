@@ -77,7 +77,7 @@
     6.防止冒泡事件:@click.stop.prevent
 
 
-    ## 面试
+  ## 面试
 
         1.css只在当前组件起作用
         答：在style标签中写入scoped即可 例如：<style scoped></style>
