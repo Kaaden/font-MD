@@ -40,6 +40,8 @@
  ## Cmder
      https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/cmder.zip
 
+     cmder配置：https://segmentfault.com/a/1190000011361877
+
  ## Nginx
      https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/nginx-1.12.2.rar
 
