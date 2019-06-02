@@ -18,6 +18,7 @@
         12.path inerllisense
         13.shell-format
         14.vetur
+        15.Panda Theme
 
  ## FlashFtp
       https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/FlashFXP.rar
