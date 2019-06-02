@@ -17,7 +17,7 @@
         11.open in browser
         12.path inerllisense
         13.shell-format
-        14.veteur
+        14.vetur
 
  ## FlashFtp
       https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/FlashFXP.rar
