@@ -61,6 +61,28 @@
     1.class绑定:class="['contact-item',{'bge':item.istop===1}]"
 
     2.style绑定::style="msg.status==='0'?'justify-content:flex-end':''"
+	
+	<!-- 1 -->
+	<div v-bind:class="{ active: true }"></div> ===> 解析后
+	<div class="active"></div>
+
+	<!-- 2 -->
+	<div :class="['active', 'text-danger']"></div> ===>解析后
+	<div class="active text-danger"></div>
+
+	<!-- 3 -->
+	<div v-bind:class="[{ active: true }, errorClass]"></div> ===>解析后
+	<div class="active text-danger"></div>
+
+
+	--- style ---
+	<!-- 1 -->
+	<div v-bind:style="{ color: activeColor, 'font-size': fontSize + 'px' }"></div>
+	<!-- 2 将多个 样式对象 应用到一个元素上-->
+	<!-- baseStyles 和 overridingStyles 都是data中定义的对象 -->
+	<div v-bind:style="[baseStyles, overridingStyles]"></div>
+
+
 
   ## 事件
 
