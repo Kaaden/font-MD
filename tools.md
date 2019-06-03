@@ -17,7 +17,8 @@
         11.open in browser
         12.path inerllisense
         13.shell-format
-        14.veteur
+        14.vetur
+        15.Panda Theme
 
  ## FlashFtp
       https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/FlashFXP.rar
@@ -39,6 +40,8 @@
 
  ## Cmder
      https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/cmder.zip
+
+     cmder配置：https://segmentfault.com/a/1190000011361877
 
  ## Nginx
      https://kaaden.oss-cn-hangzhou.aliyuncs.com/web/nginx-1.12.2.rar
