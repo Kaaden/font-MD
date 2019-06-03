@@ -82,7 +82,8 @@
 	<!-- baseStyles 和 overridingStyles 都是data中定义的对象 -->
 	<div v-bind:style="[baseStyles, overridingStyles]"></div>
 
-
+   ## 提升性能：v-pre
+   说明：vue会跳过这个元素和它的子元素的编译过程。可以用来显示原始 Mustache 标签。跳过大量没有指令的节点会加快编译。
 
   ## 事件
 
