@@ -118,3 +118,17 @@
         包裹动态组件时，会缓存不活动的组件实例，主要用于保留组件状态或避免重新渲染 使用：简单页面时
         缓存： <keep-alive include=”组件名”></keep-alive>
         不缓存：<keep-alive exclude=”组件名”></keep-alive>
+
+        13.聊聊你对Vue.js的模板编译的理解？
+        简而言之，就是先转化成AST树，再得到的渲染函数返回VNODE
+
+        首先，通过编译编译器把模板编译成AST语法树（抽象语法树即源代码的抽象语法结构的树状表现形式），编译是createCompiler的返回值，createCompiler是用以创建编译器的。负责合并选项。然后，AST会经过生成（将AST语法树转化成渲染功能字符串的过程）得到渲染函数，渲染的返回值是VNode，VNode是Vue的虚拟DOM节点，里面有（标签名，子节点，文本等等）
+
+        14.谈谈你对MVVM开发模式的理解
+        MVVM分为Model、View、ViewModel三者。
+        Model 代表数据模型，数据和业务逻辑都在Model层中定义；
+        View 代表UI视图，负责数据的展示；
+        ViewModel 负责监听 Model 中数据的改变并且控制视图的更新，处理用户交互操作；
+        Model 和 View 并无直接关联，而是通过 ViewModel 来进行联系的，Model 和 ViewModel 之间有着双向数据绑定的联系。因此当 Model 中的数据改变时会触发 View 层的刷新，View 中由于用户交互操作而改变的数据也会在 Model 中同步。
+        这种模式实现了 Model 和 View 的数据自动同步，因此开发者只需要专注对数据的维护操作即可，而不需要自己操作 dom。
+ 
