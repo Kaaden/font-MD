@@ -1,7 +1,27 @@
 # react-native 开发相关
 
+   ## 文献
+
+       react-navigation: https://reactnavigation.org/docs/zh-Hans/hello-react-navigation.html
+
+       reactNative: https://reactnative.cn/docs/getting-started/
+
+       expo: https://docs.expo.io/versions/v32.0.0/
+
+       expo tools: https://expo.io/tools
+
+       icon: https://expo.github.io/vector-icons/
+
+       react native style: https://shenbao.github.io/ishehui/html/RN%20%E5%9F%BA%E7%A1%80/React%20Native%20%E6%A0%B7%E5%BC%8F%E8%A1%A8%E6%8C%87%E5%8D%97.html
+
+       react native 第三方包：https://react.parts/?search=react+html&collection=React+Native
+
+       mobx.js：https://cn.mobx.js.org/
+       
 
    ## 路由问题 react-navigation
+      
+     
 
       1.createStackNavigator - 一次渲染一个页面，并支持页面切换， 当我们打开一个新的页面时，该页面会被置于堆栈的顶层;
 
