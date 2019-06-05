@@ -40,12 +40,13 @@
                     return <AppContainer />;
                 }
             }
-			
-  ## android 打包
+
+  ## 命令
+
+     1.安装：npm install -g expo-cli
+
+     2.android打包：expo build:android
+
+     3.ios打包： expo build:ios
   
-	  expo build:android
-  
-  ## ios 打包
-     
-	  expo build:ios
   
