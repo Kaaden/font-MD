@@ -21,8 +21,6 @@
 
    ## 路由问题 react-navigation
       
-     
-
       1.createStackNavigator - 一次渲染一个页面，并支持页面切换， 当我们打开一个新的页面时，该页面会被置于堆栈的顶层;
 
       2.createBottomTabNavigator - 渲染一个 tab bar，让用户可以在多个页面之间切换。
