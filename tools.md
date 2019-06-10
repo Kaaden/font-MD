@@ -79,6 +79,9 @@
 
        npm get registry 得到原本的镜像地址
 
+       yarn config get registry 得到原本的镜像地址
+	   
+	   
      设成淘宝的镜像
 
        npm config set registry http://registry.npm.taobao.org/
