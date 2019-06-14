@@ -9,6 +9,9 @@
            ios:react-native run-ios
 
   ## 刷新模拟器
+  
+	 夜神模拟器连接：adb connect 127.0.0.1:62001 
+	 查看连接是否成功：adb devices
 
      iOS模拟器是 com+R  安卓是 双 R
 
