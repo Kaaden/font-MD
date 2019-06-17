@@ -15,3 +15,10 @@
   ### null类型
 
       1.null值表示一个空对象指针
+	  
+  ### 大小写转换
+  
+      JS大写转小写: toLowerCase()
+	  
+	  JS小写转大写: toUpperCase() 
+
