@@ -42,3 +42,10 @@
      
      yarn add react-native-vector-icons
      react-native link react-native-vector-icons
+	 
+  ## 搭配Ui 框架 react-native-elements
+  
+     yarn add react-native-elements
+
+     npm install --save react-native-elements
+	 
