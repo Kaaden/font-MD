@@ -54,3 +54,19 @@
 	 
 	 react-native link @react-native-community/async-storage
 	 
+  ## reactnative 解决方案
+  
+      1.如何隐藏当前页面顶部导航栏
+	    在stack页，配置
+		 const Stack = createStackNavigator(
+			{
+				// 只有Stack页可以隐藏顶部导航，设置header为null
+				Tab: {
+					screen: Tab,
+					navigationOptions: ({ navigation, screeProps }) => ({
+						header: (navigation.state.index === 3 || navigation.state.index === 1) && null,
+					})
+				},
+
+			})
+	 
