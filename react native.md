@@ -23,7 +23,6 @@
 	 
      yarn add react-native-gesture-handler
 
-     Link 所有的原生依赖 react-native link react-native-gesture-handler
 
   ## mobxjs
      
@@ -48,4 +47,10 @@
      yarn add react-native-elements
 
      npm install --save react-native-elements
+	 
+  ## 生成原生依赖 react-native link
+  
+     react-native link react-native-gesture-handler
+	 
+	 react-native link @react-native-community/async-storage
 	 
