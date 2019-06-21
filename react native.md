@@ -40,6 +40,7 @@
   ## react-native-vector-icons
      
      yarn add react-native-vector-icons
+	 
      react-native link react-native-vector-icons
 	 
   ## 搭配Ui 框架 react-native-elements
@@ -57,7 +58,9 @@
   ## reactnative 解决方案
   
       1.如何隐藏当前页面顶部导航栏
+	  
 	    在stack页，配置
+		
 		 const Stack = createStackNavigator(
 			{
 				// 只有Stack页可以隐藏顶部导航，设置header为null
@@ -69,4 +72,5 @@
 				},
 
 			})
-	 
+			
+	 2.statusbar 更改状态栏字体颜色android 7.0以上有效，5.0无效，ios暂未发现
