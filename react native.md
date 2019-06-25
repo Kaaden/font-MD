@@ -23,6 +23,11 @@
 	 
      yarn add react-native-gesture-handler
 
+     跳转语句：navigation.navigate(key,{para})
+
+     返回：navigation.goBack()
+
+
 
   ## mobxjs
      
