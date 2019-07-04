@@ -83,3 +83,9 @@
 	## RN与原生交互实现
 
       https://juejin.im/post/5b20810ff265da6e432e697c
+	  
+	## 样式
+	  
+	  1.阴影问题(Platform.OS可判断设备)
+		 ios:shadowOpacity
+		 android:elevation
