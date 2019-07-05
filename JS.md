@@ -101,6 +101,12 @@
       window.addEventListener("scroll", this.onScroll)  
 	  
 	  window.removeEventListener("scroll", this.onScroll)
+  
+  ### 正则表达式
+  
+      1.手机号码：!/^1[3456789]\d{9}$/.test(phone)
+	  
+	  2.邮箱：!/^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/.test(email)
 	  
 	  
 	  
