@@ -94,4 +94,9 @@
        
        npm config set registry https://registry.npmjs.org/
 
+
+    yarn更新模块：yarn upgrade-interactive  --latest
+
+    
+
    
