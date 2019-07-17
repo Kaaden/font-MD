@@ -97,6 +97,13 @@
 
     yarn更新模块：yarn upgrade-interactive  --latest
 
+    将包更新到指定版本： yarn upgrade [pkg-name]@ver
+    # jquery从2.1.4更新到3.0.0版本：
+    yarn upgrade jquery@3.0.0
+
+    将包更新到最新版本：yarn upgrade –latest [pkg-name]
+    举例将3.0.0版本的 jquery更新到最新版本：
+    yarn upgrade –latest jquery
     
 
    
