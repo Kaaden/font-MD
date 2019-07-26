@@ -89,3 +89,18 @@
 	  1.阴影问题(Platform.OS可判断设备)
 		 ios:shadowOpacity
 		 android:elevation
+		 
+    ## 打包
+	
+	   ### android 打包
+	       
+		   1.配置 https://reactnative.cn/docs/signed-apk-android/
+		   
+		   2.目前遇到问题：
+		      
+			  1) Task :@remobile_react-native-qrcode-local-image:verifyReleaseResources FAILED
+			     到npm包去更改build版本
+				 
+			  2） Task :app:mergeReleaseResources FAILED
+			      aaptOptions.cruncherEnabled = false
+				  aaptOptions.useNewCruncher = false
