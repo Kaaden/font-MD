@@ -96,6 +96,9 @@
 	       
 		   1.配置 https://reactnative.cn/docs/signed-apk-android/
 		   
+		     android 目录运行 gradlew assembleRelease 打包
+			                  gradlew clean 清除 
+		   
 		   2.目前遇到问题：
 		      
 			  1) Task :@remobile_react-native-qrcode-local-image:verifyReleaseResources FAILED
