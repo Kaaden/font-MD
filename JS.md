@@ -117,9 +117,12 @@
 	}
 	  
 	  
+  ### 原型链检测类型
+  
+	  return Object.prototype.toString.call(val).slice(8, -1)
 	  
-	  
-	  
+	  (String,Boolean,Function,Number,Null,Undefined,Object,Array,Date,Symbol,Promise,Error，ReExp，Set)
+
 	  
 	  
 	  
