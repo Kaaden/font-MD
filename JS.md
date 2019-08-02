@@ -125,7 +125,9 @@
 	  
   ### 字符串长度问题
      javascript（utf-16编码）中，字符占多少字节,只需要求出字符串的长度然后乘以2便可
-	 求kb：const string=string.length*2
+	 字节：const b =string.length*2
+	 kb：const k=b/1024
+	 mb:const mb=k/1024
 
 	  
 	  
