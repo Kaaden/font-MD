@@ -122,6 +122,10 @@
 	  return Object.prototype.toString.call(val).slice(8, -1)
 	  
 	  (String,Boolean,Function,Number,Null,Undefined,Object,Array,Date,Symbol,Promise,Error，ReExp，Set)
+	  
+  ### 字符串长度问题
+     javascript（utf-16编码）中，字符占多少字节,只需要求出字符串的长度然后乘以2便可
+	 求kb：const string=string.length*2
 
 	  
 	  
