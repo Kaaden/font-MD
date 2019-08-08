@@ -79,6 +79,28 @@
 			})
 			
 	 2.statusbar 更改状态栏字体颜色android 7.0以上有效，5.0无效，ios暂未发现
+
+    3.解决android home键再次重新打开app问题：在androidmanifest.xml 中修改activity android:launchMode="singleTask"模式
+
+    4.解决android点击返回键导致重新打开问题：在mainactivity.java文件中加入其中一个即可：
+         1）
+         @Override
+         public void invokeDefaultOnBackPressed(){
+            moveTaskToBack(true);
+         }
+         2）
+         @Override
+         public boolean onKeyDown(int keyCode, KeyEvent event) {
+         
+            if (keyCode == KeyEvent.KEYCODE_BACK) {
+                  Intent home = new Intent(Intent.ACTION_MAIN);
+                  home.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                  home.addCategory(Intent.CATEGORY_HOME);
+                  startActivity(home);
+                  return true;
+            }
+            return super.onKeyDown(keyCode, event);
+         }
 	 
 	## RN与原生交互实现
 
