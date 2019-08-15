@@ -129,3 +129,9 @@
 			  2） Task :app:mergeReleaseResources FAILED
 			      aaptOptions.cruncherEnabled = false
 				  aaptOptions.useNewCruncher = false
+
+## 安装CocoaPods
+
+   1.sudo gem install -n /usr/local/bin cocoapods
+
+   2.pod setup
