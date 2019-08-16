@@ -135,3 +135,11 @@
    1.sudo gem install -n /usr/local/bin cocoapods
 
    2.pod setup
+
+## 使用flow检测错误
+
+   1.安装指定版本(当前配置为0.92.0)flow-bin：yarn add flow-bin@0.92.0 --dev
+
+   2.package.json配置启动命令："flow": "flow; test $? -eq 0 -o $? -eq 2 --all"
+
+   3.启动检测：npm run flow
