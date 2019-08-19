@@ -102,19 +102,19 @@
             return super.onKeyDown(keyCode, event);
          }
 	 
-	## RN与原生交互实现
+## RN与原生交互实现
 
       https://juejin.im/post/5b20810ff265da6e432e697c
 	  
-	## 样式
+## 样式
 	  
 	  1.阴影问题(Platform.OS可判断设备)
 		 ios:shadowOpacity
 		 android:elevation
 		 
-    ## 打包
+## 打包
 	
-	   ### android 打包
+   ### android 打包
 	       
 		   1.配置 https://reactnative.cn/docs/signed-apk-android/
 		   
@@ -135,6 +135,8 @@
    1.sudo gem install -n /usr/local/bin cocoapods
 
    2.pod setup
+
+   3.pod install 
 
 ## 使用flow检测错误
 
