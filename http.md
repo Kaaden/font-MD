@@ -1,4 +1,4 @@
- # http (rest api)请求所遇到的问题
+# http (rest api)请求所遇到的问题
 
   ## 多次请求问题
       1.客户端会发起两次请求,一次是options ,一次是post
