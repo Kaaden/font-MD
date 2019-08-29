@@ -101,6 +101,8 @@
             }
             return super.onKeyDown(keyCode, event);
          }
+         
+    5.metro-react-native-babel-preset 若rn版本>0.6且自身版本高于0.55，则会出现 Error screen on fresh started app (RefreshReg)，目前解决方案降回0.55
 	 
 ## RN与原生交互实现
 
