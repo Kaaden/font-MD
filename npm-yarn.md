@@ -37,3 +37,9 @@
     将包更新到最新版本：yarn upgrade –latest [pkg-name]
     举例将3.0.0版本的 jquery更新到最新版本：
     yarn upgrade –latest jquery
+	
+## 删除
+   
+   npm uninstall --save lodash
+   
+   yarn remove 
