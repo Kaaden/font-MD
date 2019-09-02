@@ -128,6 +128,8 @@
 
       /* Begin PBXNativeTarget section */
       buildPhases下配置FD10A7F022414F080027D42C /* Start Packager */,
+      
+      7.iOS遇到error Failed to build iOS project. We ran "xcodebuild" command but it exited with error code 65错误：cd iOS  \ rm -rf build \ sudo react-native run-is
 	 
 ## RN与原生交互实现
 
