@@ -103,6 +103,31 @@
          }
          
     5.metro-react-native-babel-preset 若rn版本>0.6且自身版本高于0.55，则会出现 Error screen on fresh started app (RefreshReg)，目前解决方案降回0.55
+
+    6.若rn升级后，运行react-native run-ios不会自动启动打包器，则缺少配置，在ios目录下xcodeproj，配置：
+         /* Begin PBXShellScriptBuildPhase section */
+       	FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+
+      /* Begin PBXNativeTarget section */
+      buildPhases下配置FD10A7F022414F080027D42C /* Start Packager */,
 	 
 ## RN与原生交互实现
 
