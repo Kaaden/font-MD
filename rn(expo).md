@@ -1,6 +1,6 @@
 # react-native 开发相关
 
-   ## 文献
+   ## 文献 
 
        react-navigation: https://reactnavigation.org/docs/zh-Hans/hello-react-navigation.html
 
