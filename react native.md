@@ -152,6 +152,7 @@
 		   
 		     android 目录运行 gradlew assembleRelease 打包
 			                  gradlew clean 清除 
+                           gradlew clean build 清除build
 		   
 		   2.目前遇到问题：
 		      
