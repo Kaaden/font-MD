@@ -130,6 +130,9 @@
       buildPhases下配置FD10A7F022414F080027D42C /* Start Packager */,
       
       7.iOS遇到error Failed to build iOS project. We ran "xcodebuild" command but it exited with error code 65错误：cd iOS  \ rm -rf build \ sudo react-native run-is
+	  
+	  8.Android Studio --“Cannot resolve symbol” 解决办法
+	   点击菜单中的 “File” -> “Invalidate Caches / Restart”，然后点击对话框中的 “Invalidate and Restart”，清空 cache 并且重启。语法就会正确的高亮了
 	 
 ## RN与原生交互实现
 
