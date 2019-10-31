@@ -15,7 +15,9 @@
 	 
 	 查看连接是否成功：adb devices
 
-     iOS模拟器是 com+R  安卓是 双 R
+    iOS模拟器是 com+R  安卓是 双 R
+   
+    React Native安卓模拟器调出Dev Setting菜单：adb shell input keyevent 82
 
   ## react navigation
 
