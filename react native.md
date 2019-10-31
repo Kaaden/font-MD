@@ -9,6 +9,10 @@
 		   
            ios:react-native run-ios
 
+  ## 解决mac下运行android命令行出错问题
+   
+      在项目的终端中添加以下命令：chmod 755 android/gradlew
+   
   ## 刷新模拟器
   
 	 夜神模拟器连接：adb connect 127.0.0.1:62001 || adb connect 127.0.0.1:62025
