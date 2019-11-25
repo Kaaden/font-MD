@@ -184,3 +184,12 @@
    2.package.json配置启动命令："flow": "flow; test $? -eq 0 -o $? -eq 2 --all"
 
    3.启动检测：npm run flow
+   
+   
+## 热更新
+    android
+    发布应用：pushy uploadApk 广轻智慧中台.apk
+    ios
+    发布应用：pushy uploadIpa zhycApp.ipa
+    
+    发布新的热更新版本：pushy bundle --platform <ios|android>
