@@ -14,7 +14,7 @@
  
  ## 4.插入  
  
-     await this.app.mysql.insert('posts', { title: 'Hello World' });
+     await this.app.mysql.insert('posts', { title: 'Hello World' }); 
      ### // 判断插入成功
      const insertSuccess = result.affectedRows === 1;
  
