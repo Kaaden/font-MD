@@ -193,3 +193,12 @@
     发布应用：pushy uploadIpa zhycApp.ipa
     
     发布新的热更新版本：pushy bundle --platform <ios|android>
+
+## 解决Xcode11 ipa上传卡死解决方案
+     1.cd /Users/yukaaden/Library/Caches
+
+     2.rm -rf com.apple.amp.itmstransporter
+     
+     3./Applications/Xcode.app/Contents/SharedFrameworks/ContentDeliveryServices.framework/itms/bin/iTMSTransporter
+
+
